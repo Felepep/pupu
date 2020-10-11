@@ -2,11 +2,7 @@ import requests
 import re
 
 cookies = dict(mybbuser='', sid='')
-headers = {'POST':'/forum/xmlhttp.php HTTP/1.1', 'Host': 'chronicles-of-esshar.com',
-            'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:81.0) Gecko/20100101 Firefox/81.0',
-            'Accept':'*/*', 'Accept-Encoding':'gzip, deflate',
-            'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8', 'X-Requested-With':'XMLHttpRequest',
-            'Content-Length':'50', 'Origin':'', 'Connection':'close'}
+headers = {}
 url = 'https://chronicles-of-esshar.com/forum/xmlhttp.php'
 
 info_url = input('user: ')

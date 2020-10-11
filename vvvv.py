@@ -3,7 +3,7 @@ import re
 
 cookies = dict(mybbuser='', sid='')
 headers = {}
-url = 'https://chronicles-of-esshar.com/forum/xmlhttp.php'
+url = ''
 
 info_url = input('user: ')
 acesso_url = requests.get(info_url, cookies=cookies)
